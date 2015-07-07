@@ -21,6 +21,7 @@ RUN yum -y -q install \
               nmap  \
               traceroute \
               wget  \
+              openssh-server \
               sudo
 
 # Installing SNMP Utils
