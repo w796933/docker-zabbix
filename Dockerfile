@@ -6,6 +6,7 @@ MAINTAINER CosmicQ <jason@cosmicegg.net>
 
 # Update base images.
 RUN yum distribution-synchronization -y
+RUN yum -y update
 
 # Install EPEL, MySQL, Zabbix release packages.
 RUN yum install -y http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
